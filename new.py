@@ -117,7 +117,7 @@ anger=Image.open("anger.png")
 anger=anger.resize((200,200),Image.ANTIALIAS)
 anger=ImageTk.PhotoImage(anger)
 
-sadness=Image.open("sadeness.png")
+sadness=Image.open("sadness.png")
 sadness=sadness.resize((200,200),Image.ANTIALIAS)
 sadness=ImageTk.PhotoImage(sadness)
 
@@ -133,7 +133,7 @@ guilt=Image.open("guilt.png")
 guilt=guilt.resize((200,200),Image.ANTIALIAS)
 guilt=ImageTk.PhotoImage(guilt)
 
-emoji_dict = {"joy":joy, "fear":fear, "anger":PhotoImage(file = r"anger.png"), "sadness":PhotoImage(file = r"sadeness.png"), "disgust":PhotoImage(file = r"disgust.png"), "shame":PhotoImage(file = r"shame.png"), "guilt":PhotoImage(file = r"guilt.png")}
+emoji_dict = {"joy":joy, "fear":fear, "anger":PhotoImage(file = r"anger.png"), "sadness":PhotoImage(file = r"sadness.png"), "disgust":PhotoImage(file = r"disgust.png"), "shame":PhotoImage(file = r"shame.png"), "guilt":PhotoImage(file = r"guilt.png")}
 
 
 
